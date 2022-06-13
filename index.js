@@ -22,6 +22,7 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
       console.log(createdContact);
       break;
     default:
+      console.log('Unknown action');
       break;
   }
 };
